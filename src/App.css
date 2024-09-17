@@ -1,0 +1,49 @@
+.contentWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+h1 {
+  color: #BBCD9B;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.circleContainer{
+  width: 490px;
+  height: 490px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.circleContainer img {
+  position: absolute;
+}
+
+.circleContainer .time {
+  position: absolute;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #BBCD9B;
+  font-size: 100px;
+
+}
+
+.isWork {
+  font-size: 24px;
+  color: #BBCD9B;
+  font-weight: bold;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 60px;
+  width: 490px;
+}
